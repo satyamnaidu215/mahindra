@@ -1,0 +1,11 @@
+node {
+    checkout:([class: 'GitSCM',
+    branches:  [[name: '*/master']],
+    dogenerateSubmoduleconnfigurations: false,
+    extensions: [],
+    submoduleCfg: [],
+    userRemoteConfigs:[[
+    credentialsid:'59137fc3-edf1-41ae-8fd2-aedb3d260883',
+    url: 'https://github.com/satyamnaidu215/dictinoary.git'
+    ]]])
+    
